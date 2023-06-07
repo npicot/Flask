@@ -1,0 +1,38 @@
+body {
+    background-color: yellowgreen;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    width: 540;
+    height: 960;
+}
+
+nav {
+    justify-content: center;
+    margin-right: 10px;
+
+    border: 3px hidden;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#pp {
+    border: 3px hidden;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#aboutme {
+    scrollbar-width: 10px;
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
+
+    border: 3px hidden;
+    border-radius: 10px;
+    background-color: white;
+}
