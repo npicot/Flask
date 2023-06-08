@@ -16,6 +16,9 @@ nav {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr 2fr 1fr repeat(2, 2fr);
+
+    overflow-y: scroll;
+    scrollbar-width: thin;
 }
 
 .box1 {
