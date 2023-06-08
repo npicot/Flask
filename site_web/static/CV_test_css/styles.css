@@ -1,8 +1,9 @@
 .wrapper {
     display: grid;
-    grid-template-columns: 80px 400px 600px;
+    grid-template-columns: 1fr 5fr 7fr;
     grid-auto-rows: 400px repeat(2, 600px);
 
+    margin: 10%  15%;
     border: 1px solid;
 }
 
