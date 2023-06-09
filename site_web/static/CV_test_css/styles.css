@@ -1,11 +1,11 @@
 .wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 800px repeat(3, 500px);
+    grid-template-columns: 1.35fr 0.65fr 2fr;
+    grid-template-rows: 100px 800px 1000px repeat(2, 500px);
 }
 
 nav {
-    grid-column: 1 / 3;
+    grid-column: 1 / 4;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
 
@@ -13,31 +13,51 @@ nav {
 }
 
 .pp {
-    grid-column: 0.5fr;
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
+    grid-column: 1;
+    border-left: 1px solid;
 }
 
 #aboutme {
+    grid-column: 3;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 50px 150px 50px repeat(2, 150px) 50px 150px;
 
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
+    border-right: 1px solid;
 }
 
-.box1 {
+.abox1 {
     grid-column: 1 / 3;
 }
 
-.box4 {
+.abox4 {
     grid-column: 1 / 3;
 }
 
-.box9 {
+.abox9 {
     grid-column: 1 / 3;
 }
+
+#resume {
+    grid-column: 1 / 3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 50px) repeat(3, 150px) repeat(2, 50px) 150px;
+
+    border-top: 1px solid;
+    border-left: 1px solid;
+}
+
+.rbox1 {
+    grid-column: 1 / 3;
+}
+
+.rbox10 {
+    grid-column: 1 / 3;
+}
+
+
+
 
 h1 {
     margin: 0;
@@ -65,9 +85,14 @@ h4 {
     padding-top: 15px;
 }
 
-p {
+p.a {
     text-align: center;
 
+    margin: 0;
+    padding: 5% 4%;
+}
+
+p.r {
     margin: 0;
     padding: 5% 4%;
 }
@@ -86,5 +111,16 @@ ul {
 
 strong {
     color: white;
+    background-color: lightgreen;
+}
+
+.progress {
+    width: 100%;
+    height: 4px;
+    background-color: lightgrey;
+}
+
+.percent {
+    height: 4px;
     background-color: lightgreen;
 }
