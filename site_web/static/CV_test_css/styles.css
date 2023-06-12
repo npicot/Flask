@@ -1,6 +1,5 @@
-html, body {
-    margin: 0;
-    padding: 0;
+body {
+    background: linear-gradient(to bottom right, #50a3a2, #78cc6d);
 }
 
 h1 {
@@ -9,7 +8,6 @@ h1 {
     padding: 1% 4%;
 
     border-top: 1px solid lightgrey;
-    border-bottom: 1px solid lightgrey;
 }
 
 h2 {
@@ -30,8 +28,10 @@ h4 {
     margin: 0;
     padding-top: 2%;
     padding-bottom: 1%;
+}
 
-    border-bottom: 1px solid lightgrey;
+a {
+    color: black;
 }
 
 p.a {
@@ -50,14 +50,15 @@ span.top {
     display: block;
     font-size: 2em;
     font-weight: bold;
+    font-family: "Arial";
 
     padding: 1% 4%;
-    border-bottom: 1px solid lightgrey;
 }
 
 span.h4_modif {
     display: block;
     font-weight: bold;
+    font-family: "Arial";
 
     text-align: center;
 
@@ -65,15 +66,10 @@ span.h4_modif {
     padding-bottom: 1%;
 
     border-top: 1px solid lightgrey;
-    border-bottom: 1px solid lightgrey;
-}
-
-span.first-word {
-    color: #4bf734;
 }
 
 span.first-letter {
-    color: #4bf734;
+    color: #78cc6d;
 }
 
 ul {
@@ -84,11 +80,13 @@ ul {
 
 li {
     line-height: 26px;
+    font-family: "Arial";
 }
 
 strong {
+    float: left;
     color: white;
-    background-color: #4bf734;
+    background-color: #78cc6d;
 }
 
 .progress {
@@ -99,16 +97,14 @@ strong {
 
 .percent {
     height: 4px;
-    background-color: #4bf734;
-}
-
-a {
-    color: black;
+    background-color: #78cc6d;
 }
 
 nav img {
     width: 50px;
     height: 50px;
+
+    margin-top: 15px;
 }
 
 img {
@@ -158,4 +154,27 @@ img {
     bottom: 10px;
     right: -100px;
     opacity: 0.5;
+}
+
+.circle {
+    display: block;
+    height: 80px;
+    width: 80px;
+
+    margin-left: 39%;
+
+    background-color: #dddddd;
+    border-radius: 100%;
+}
+
+.abox2, .abox5, .abox7, .abox10, .rbox2, .rbox4, .rbox6, .rbox8, .rbox11, .rbox13 , .rbox15 , .rbox17, .wbox2, .bbox2 {
+    border-right: 1px solid lightgrey;
+}
+
+.abox4, .abox5, .abox6, .abox9, .rbox4, .rbox5, .rbox6, .rbox7, .rbox10, span.top, h4, span.h4_modif {
+    border-bottom: 1px solid lightgrey;
+}
+
+h1, h2, h3, h4, a, p.a, p.r {
+    font-family: "Arial";
 }
