@@ -36,6 +36,7 @@ a {
 
 p.a {
     text-align: center;
+    font-family: 'Georgia';
 
     margin: 0;
     padding: 3% 4%;
@@ -44,6 +45,8 @@ p.a {
 p.r {
     margin: 0;
     padding: 5% 4%;
+
+    font-family: 'Georgia';
 }
 
 span.top {
@@ -168,10 +171,10 @@ img {
     border-right: 1px solid lightgrey;
 }
 
-.abox4, .abox5, .abox6, .abox9, .rbox4, .rbox5, .rbox6, .rbox7, .rbox10, span.top, h4, span.h4_modif {
+.abox1, .abox4, .abox5, .abox6, .abox9, .rbox1, .rbox2, .rbox3, .rbox4, .rbox5, .rbox6, .rbox7, .rbox10, .rbox11, .rbox12, .wbox1, .bbox1, .cbox1, span.h4_modif {
     border-bottom: 1px solid lightgrey;
 }
 
-h1, h2, h3, h4, a, p.a, p.r, span.top, span.h4_modif, li {
+h1, h2, h3, h4, a, span.top, span.h4_modif, li {
     font-family: "Arial";
 }

@@ -1,13 +1,44 @@
-.wrapper {
-    margin: 70px;
-    padding: 50px;
+.radius-top {
+    display: grid;
+    grid-column: 4fr;
+    grid-template-rows: 50px;
+    
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
+    
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    
+    background-color: white;
+}
 
+.wrapper {
     display: grid;
     grid-template-columns: 1.35fr 0.65fr 2fr;
-    grid-template-rows: 840px 1080px 600px;
+    grid-template-rows: 760px 1090px 580px;
+
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
 
     background-color: white;
-    border-radius: 10%;
+}
+
+.radius-bottom {
+    display: grid;
+    grid-column: 4fr;
+    grid-template-rows: 50px;
+
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 70px;
+    
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+    background-color: white;
 }
 
 nav {
@@ -34,14 +65,19 @@ nav {
     grid-column: 2 /4;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 70px 150px 70px repeat(2, 150px) 70px 170px;
+    grid-template-rows: 50px 130px 60px 140px 130px 60px 170px;
 }
 
+.abox3 {
+    text-align: right;
+
+    padding-right: 10%;
+}
 
 #resume {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 56px 56px repeat(3, 126px) 62px 56px 150px 56px 240px;
+    grid-template-rows: 50px 56px repeat(3, 140px) 56px 56px 150px 56px 240px;
 
     border-top: 1px solid;
     border-right: 1px solid;
@@ -54,7 +90,7 @@ nav {
 #works {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 56px 910px;
+    grid-template-rows: 50px 910px;
 
     border-top: 1px solid;
 }
@@ -74,7 +110,7 @@ nav {
 #blog {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 56px 500px;
+    grid-template-rows: 50px 510px;
 
     border-top: 1px solid;
     border-right: 1px solid;
@@ -93,8 +129,14 @@ nav {
 #contact {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 56px 300px;
+    grid-template-rows: 50px 300px;
     border-top: 1px solid;
+}
+
+.cbox2 {
+    text-align: right;
+
+    padding-right: 10%;
 }
 
 #resume, #blog, .abox1, .abox4 , .abox9 , .rbox1, .rbox10, .wbox1, .bbox1, .cbox1, .cbox2 {
