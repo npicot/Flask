@@ -1,52 +1,23 @@
-.radius-top {
-    display: grid;
-    grid-column: 4fr;
-    grid-template-rows: 50px;
-    
-    margin-top: 70px;
-    margin-left: 70px;
-    margin-right: 70px;
-    
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    
-    background-color: white;
-}
-
 .wrapper {
     display: grid;
     grid-template-columns: 1.35fr 0.65fr 2fr;
-    grid-template-rows: 760px 1090px 580px;
+    grid-template-rows: 550px 1400px 200px;
 
-    margin-left: 70px;
-    margin-right: 70px;
-    padding-left: 50px;
-    padding-right: 50px;
+    margin: 70px;
+    padding: 50px;
 
     background-color: white;
-}
-
-.radius-bottom {
-    display: grid;
-    grid-column: 4fr;
-    grid-template-rows: 50px;
-
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-bottom: 70px;
-    
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    
-    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 20px -20px 20px;
 }
 
 nav {
-    height: 100px;
-
     grid-column: 1 / 4;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+
+    height: 100px;
+    margin-top: 20px;
 
     text-align: center;
 
@@ -55,6 +26,7 @@ nav {
 
 #pp {
     grid-column: 1;
+
     display: grid;
     grid-template-rows: 1fr 1fr;
 
@@ -63,82 +35,43 @@ nav {
 
 #aboutme {
     grid-column: 2 /4;
+
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 50px 130px 60px 140px 130px 60px 170px;
-}
-
-.abox3 {
-    text-align: right;
-
-    padding-right: 10%;
+    grid-template-rows: 50px 100px 60px 150px 60px 120px;
 }
 
 #resume {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 50px 56px repeat(3, 140px) 56px 56px 150px 56px 240px;
+    grid-template-rows: 50px 90px repeat(3, 200px) 56px 90px 200px 90px 200px;
 
     border-top: 1px solid;
     border-right: 1px solid;
-}
-
-.rbox14 {
-    padding-top: 4px;
 }
 
 #works {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 50px 910px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 100px;
 
     border-top: 1px solid;
-}
-
-.wbox2 {
-    text-align: center;
-    
-    padding-top: 26px;
-}
-
-.wbox3 {
-    text-align: center;
-
-    padding-top: 26px;
-}
-
-#blog {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 50px 510px;
-
-    border-top: 1px solid;
-    border-right: 1px solid;
-}
-
-.bbox2 {
-    text-align: center;
-    padding-top: 10%;
-}
-
-.bbox3 {
-    text-align: center;
-    padding-top: 10%;
 }
 
 #contact {
+    grid-column: 1 / 4;
+
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 50px 300px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 150px;
+
     border-top: 1px solid;
 }
 
 .cbox2 {
-    text-align: right;
-
-    padding-right: 10%;
+    text-align: center;
 }
 
-#resume, #blog, .abox1, .abox4 , .abox9 , .rbox1, .rbox10, .wbox1, .bbox1, .cbox1, .cbox2 {
+#resume, .abox1, .abox2, .abox3, .abox6, .rbox1, .rbox10, .rbox15, .rbox16 {
     grid-column: 1 / 3;
 }

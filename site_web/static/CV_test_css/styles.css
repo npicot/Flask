@@ -10,45 +10,6 @@ h1 {
     border-top: 1px solid lightgrey;
 }
 
-h2 {
-    text-align: center;
-
-    font-size: 50px;
-}
-
-h3 {
-    text-align: center;
-
-    font-size: 25px;
-}
-
-h4 {
-    text-align: center;
-
-    margin: 0;
-    padding-top: 2%;
-    padding-bottom: 1%;
-}
-
-a {
-    color: black;
-}
-
-p.a {
-    text-align: center;
-    font-family: 'Georgia';
-
-    margin: 0;
-    padding: 3% 4%;
-}
-
-p.r {
-    margin: 0;
-    padding: 5% 4%;
-
-    font-family: 'Georgia';
-}
-
 span.top {
     display: block;
     font-size: 2em;
@@ -57,20 +18,47 @@ span.top {
     padding: 1% 4%;
 }
 
-span.h4_modif {
-    display: block;
-    font-weight: bold;
-
+h2 {
     text-align: center;
-
-    padding-top: 1%;
-    padding-bottom: 1%;
-
-    border-top: 1px solid lightgrey;
+    font-size: 50px;
 }
 
-span.first-letter {
-    color: #78cc6d;
+h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+h4 {
+    margin: 0;
+    padding-top: 3%;
+    padding-bottom: 1%;
+
+    text-align: center;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+#aboutme p {
+    margin: 0;
+    padding: 2% 4%;
+
+    text-align: center;
+    font-family: 'Georgia';
+    font-size: 16px;
+}
+
+#resume p {
+    margin: 0;
+    padding: 5% 4%;
+
+    font-family: 'Georgia';
+}
+
+a {
+    text-align: center;
+
+    color: white;
+    text-decoration: none;
 }
 
 ul {
@@ -79,32 +67,14 @@ ul {
     padding-inline-start: 20px;
 }
 
+.rbox14 ul, .rbox16 ul {
+    list-style-type: disc;
+
+    padding-inline-start: 40px;
+}
+
 li {
     line-height: 26px;
-}
-
-strong {
-    float: left;
-    color: white;
-    background-color: #78cc6d;
-}
-
-.progress {
-    width: 94%;
-    height: 4px;
-    background-color: lightgrey;
-}
-
-.percent {
-    height: 4px;
-    background-color: #78cc6d;
-}
-
-nav img {
-    width: 50px;
-    height: 50px;
-
-    margin-top: 15px;
 }
 
 img {
@@ -112,41 +82,52 @@ img {
     height: 40px;
 }
 
-#works img {
-    width: 300px;
-    height: 200px;
+nav img {
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+
+    text-align: center;
+
+    opacity: 100%;
 }
 
-#pblog {
-    width: 200px;
-    height: 100px;
+span.first-letter {
+    color: #78cc6d;
 }
 
-#name {
-    margin: 20px;
-    padding: 2%;
+span.texte-barrer {
+    text-decoration: line-through;
+    opacity: 60%;
 }
 
-#email {
-    margin: 20px;
-    margin-left: 10px;
-    padding: 2%;
+strong {
+    float: left;
+    color: #78cc6d;
 }
 
-#message {
-    margin: 20px;
-    margin-top: 10px;
-    padding: 2%;
-    padding-right: 28%;
+.progress {
+    width: 94%;
+    height: 4px;
+
+    background-color: lightgrey;
 }
 
-#send {
-    margin-left: 20px;
-    padding: 2%;
+.percent {
+    height: 4px;
+
+    background-color: #78cc6d;
 }
 
-.cbox2 iframe {
-    padding: 2%;
+.circle {
+    display: block;
+    height: 80px;
+    width: 80px;
+    margin: auto;
+
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
 }
 
 #scrollUp {
@@ -156,25 +137,14 @@ img {
     opacity: 0.5;
 }
 
-.circle {
-    display: block;
-    height: 80px;
-    width: 80px;
-
-    margin-left: 39%;
-
-    background-color: #dddddd;
-    border-radius: 100%;
-}
-
-.abox2, .abox5, .abox7, .abox10, .rbox2, .rbox4, .rbox6, .rbox8, .rbox11, .rbox13 , .rbox15 , .rbox17, .wbox2, .bbox2 {
+.abox4, .abox7, .rbox2, .rbox4, .rbox6, .rbox8, .rbox11, .rbox13 {
     border-right: 1px solid lightgrey;
 }
 
-.abox1, .abox4, .abox5, .abox6, .abox9, .rbox1, .rbox2, .rbox3, .rbox4, .rbox5, .rbox6, .rbox7, .rbox10, .rbox11, .rbox12, .wbox1, .bbox1, .cbox1, span.h4_modif {
+.abox1, .abox3, .abox6, .rbox1, .rbox2, .rbox3, .rbox4, .rbox5, .rbox6, .rbox7, .rbox10, .rbox11, .rbox12, .rbox13, .rbox14, .rbox15, .cbox1 {
     border-bottom: 1px solid lightgrey;
 }
 
-h1, h2, h3, h4, a, span.top, span.h4_modif, li {
+h1, h2, h3, h4, a, span.top, li {
     font-family: "Arial";
 }
