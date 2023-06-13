@@ -39,7 +39,6 @@ nav {
 
 
 #resume {
-    grid-column: 1 / 3;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 56px 56px repeat(3, 126px) 62px 56px 150px 56px 240px;
@@ -73,7 +72,6 @@ nav {
 }
 
 #blog {
-    grid-column: 1 / 3;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 56px 500px;
@@ -99,6 +97,6 @@ nav {
     border-top: 1px solid;
 }
 
-.abox1, .abox4 , .abox9 , .rbox1, .rbox10, .wbox1, .bbox1, .cbox1, .cbox2 {
+#resume, #blog, .abox1, .abox4 , .abox9 , .rbox1, .rbox10, .wbox1, .bbox1, .cbox1, .cbox2 {
     grid-column: 1 / 3;
 }

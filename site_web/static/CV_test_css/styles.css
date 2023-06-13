@@ -50,7 +50,6 @@ span.top {
     display: block;
     font-size: 2em;
     font-weight: bold;
-    font-family: "Arial";
 
     padding: 1% 4%;
 }
@@ -58,7 +57,6 @@ span.top {
 span.h4_modif {
     display: block;
     font-weight: bold;
-    font-family: "Arial";
 
     text-align: center;
 
@@ -80,7 +78,6 @@ ul {
 
 li {
     line-height: 26px;
-    font-family: "Arial";
 }
 
 strong {
@@ -175,6 +172,6 @@ img {
     border-bottom: 1px solid lightgrey;
 }
 
-h1, h2, h3, h4, a, p.a, p.r {
+h1, h2, h3, h4, a, p.a, p.r, span.top, span.h4_modif, li {
     font-family: "Arial";
 }
