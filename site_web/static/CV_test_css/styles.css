@@ -130,6 +130,11 @@ strong {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
 }
 
+.circle:hover {
+    height: 84px;
+    width: 84px;
+}
+
 #scrollUp {
     position: fixed;
     bottom: 10px;
