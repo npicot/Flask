@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,17 +8,27 @@
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
     <script type="text/javascript" src="../static/to-top.js"></script>
     <script type="text/javascript" src="../static/hover.js"></script>
+    <script type="text/javascript" src="../static/fr-en.js"></script>
     
     <title> CV test </title>
 </head>
 
 <body>
     <nav>
-        <div><a href="#aboutme"><div class="circle"><img src="../static/img/aboutme.png" alt="aboutme.png"></div></a><br> A PROPOS DE MOI </div>
-        <div><a href="#resume"><div class="circle"><img src="../static/img/resume.png" alt="resume.png"></div></a><br> CV </div>
-        <div><a href="#works"><div class="circle"><img src="../static/img/works.png" alt="works.png"></div></a><br> PROJETS </div>
-        <div><a href="#contact"><div class="circle"><img src="../static/img/email.png" alt="contact.png"></div></a><br> CONTACT </div>
+        <div lang="fr"><a href="#aboutme"><div class="circle"><img src="../static/img/aboutme.png" alt="aboutme.png"></div></a><br> A PROPOS DE MOI </div>
+        <div lang="fr"><a href="#resume"><div class="circle"><img src="../static/img/resume.png" alt="resume.png"></div></a><br> CV </div>
+        <div lang="fr"><a href="#works"><div class="circle"><img src="../static/img/works.png" alt="works.png"></div></a><br> PROJETS </div>
+        <div lang="fr"><a href="#contact"><div class="circle"><img src="../static/img/email.png" alt="contact.png"></div></a><br> CONTACT </div>
+
+        <div lang="en" class="hide"><a href="#aboutme"><div class="circle"><img src="../static/img/aboutme.png" alt="aboutme.png"></div></a><br> ABOUT ME </div>
+        <div lang="en" class="hide"><a href="#resume"><div class="circle"><img src="../static/img/resume.png" alt="resume.png"></div></a><br> RESUME </div>
+        <div lang="en" class="hide"><a href="#works"><div class="circle"><img src="../static/img/works.png" alt="works.png"></div></a><br> WORKS </div>
+        <div lang="en" class="hide"><a href="#contact"><div class="circle"><img src="../static/img/email.png" alt="contact.png"></div></a><br> CONTACT </div>
     </nav>
+
+    <div id="fr-en">
+        <img src="../static/img/fr_en.png" alt="fr-eng.png">
+    </div>
 
     <main>
         <div id="pp">
@@ -29,37 +37,57 @@
             </div>
             <div class="np">
                 <h2> Natanaël Picot </h2>
-                <h3> Développeur </h3>
+                <h3 lang="fr"> Développeur </h3>
+
+                <h3 lang="en" class="hide"> Developer </h3>
             </div>
         </div>
 
 
         <div id="aboutme">
             <div class="abox1">
-                </h1><span class="top"><span class="first-letter"> A</span> propos de moi </span>
+                <div lang="fr"><span class="top"><span class="first-letter"> A</span> propos de moi </span></div>
+
+                <div lang="en" class="hide"><span class="top"><span class="first-letter"> A</span> propos de moi </span></div>
             </div>
 
             <div class="abox2">
-                <p>
+                <p lang="fr">
                     Je m'appelle Natanaël Picot, j'ai 19 ans et je suis un développeur français, de Reims.
                     J'ai beaucoup d'expérience dans le web design et la contruction et customisation de site.
+                </p>
+                <p lang="en" class="hide">
+                    My name is Natanaël Picot, I am 19 years old and I am a French developer from Reims.
+                    I have rich experience in web site design and building and customization.
                 </p>
             </div>
 
             <div class="abox3">
-                <h1><span class="first-letter"> M</span>es Services </h1>
+                <h1 lang="fr"><span class="first-letter"> M</span>es Services </h1>
+
+                <h1 lang="en" class="hide"><span class="first-letter"> M</span>y Services </h1>
             </div>
 
             <div class="abox4">
-                <h4><img src="../static/img/dev.png" alt="development.png"><br> Développement Web </h4>
-                <p>
+                <h4 lang="fr"><img src="../static/img/dev.png" alt="development.png"><br> Développement Web </h4>
+                <p lang="fr">
                     Site Web moderne et prêt pour le mobile qui vous aidera à atteindre l'ensemble de votre marketing.
+                </p>
+
+                <h4 lang="en" class="hide"><img src="../static/img/dev.png" alt="development.png"><br> Web Development </h4>
+                <p lang="en" class="hide">
+                    Modern and mobile-ready website that will help you reach all of your marketing.
                 </p>
             </div>
             <div class="abox5">
-                <h4><img src="../static/img/dev.png" alt="dev.png"><br> Développement Back-end </h4>
-                <p>
+                <h4 lang="fr"><img src="../static/img/dev.png" alt="dev.png"><br> Développement Back-end </h4>
+                <p lang="fr">
                     Développer le back-end
+                </p>
+
+                <h4 lang="en"><img src="../static/img/dev.png" alt="dev.png"><br> Back-end Development </h4>
+                <p lang="en" class="hide">
+                    Back-end Development
                 </p>
             </div>
         </div>
@@ -67,65 +95,103 @@
 
         <div id="resume">
             <div class="rbox1">
-                <span class="top"><span class="first-letter"> C</span>V </span>
+                <div lang="fr"><span lang="fr" class="top"><span class="first-letter"> C</span>V </span></div>
+
+                <div lang="en" class="hide"><span class="top"><span class="first-letter"> R</span>esume </span></div>
             </div>
 
             <div class="rbox2">
                 <h4><img src="../static/img/briefcase.png" alt="briefcase.png"><br> Experience </h4>
             </div>
             <div class="rbox3">
-                <h4><img src="../static/img/university.png" alt="university.png"><br> Education </h4>
+                <h4 lang="fr"><img src="../static/img/university.png" alt="university.png"><br> Education </h4>
+
+                <h4 lang="en" class="hide"><img src="../static/img/university.png" alt="university.png"><br> Education </h4>
             </div>
             <div class="rbox4">
-                <p>
+                <p lang="fr">
                     <span class="date"> 10/07/2023 - 28/07/2023 </span><br>
                     <strong> IT </strong><br>
                     <span class="lieu"> TCP Transport et Logistique N°1, Saint-André-les-Vergers </span><br><br>
                     Travail de 3 semaines suite au stage de 5 semaines
                 </p>
+                <!-- a traduire
+                <p lang="en" class="hide">
+                    <span class="date"> 10/07/2023 - 28/07/2023 </span><br>
+                    <strong> IT </strong><br>
+                    <span class="lieu"> TCP Transport et Logistique N°1, Saint-André-les-Vergers </span><br><br>
+                    Travail de 3 semaines suite au stage de 5 semaines
+                </p>-->
             </div>
             <div class="rbox5">
-                <p>
+                <p lang="fr">
                     <span class="date"> 2022 - 2024 <br></span>
                     <strong> BTS: Service Informatique aux Organisations </strong><br>
                     <span class="lieu"> Lycée polyvalent Franklin Roosevelt, Reims </span><br><br>
                     <span class="u"> Option SLAM:</span> Solutions logicielles et Applications Métier <br><br>
                     <span class="u"> Stage de 1er année:</span> TCP Transport et Logistique N°1
                 </p>
+                <p lang="en" class="hide">
+                    <!-- a traduire -->
+                    <!--
+                        <span class="date"> 2022 - 2024 <br></span>
+                        <strong> BTS: Service Informatique aux Organisations </strong><br>
+                        <span class="lieu"> Lycée polyvalent Franklin Roosevelt, Reims </span><br><br>
+                        <span class="u"> Option SLAM:</span> Solutions logicielles et Applications Métier <br><br>
+                        <span class="u"> Stage de 1er année:</span> TCP Transport et Logistique N°1
+                    -->
+                </p>
             </div>
             <div class="rbox6">
-                <p>
+                <p lang="fr">
                     <span class="date"> 2021 - 2022 <br></span>
                     <strong> Vendangeurs </strong><br>
                     <span class="lieu"> Champagne Bigard, Montgueux </span><br><br>
                     Travail de 10 jours avant la reprise des cours
                 </p>
+                <p lang="en" class="hide">
+                    <!-- a traduire 
+                        <span class="date"> 2021 - 2022 <br></span>
+                        <strong> Vendangeurs </strong><br>
+                        <span class="lieu"> Champagne Bigard, Montgueux </span><br><br>
+                        Travail de 10 jours avant la reprise des cours
+                    -->
+                </p>
             </div>
             
             <div class="rbox7">
-                <p>
+                <p lang="">
                     <span class="date"> 2019 - 2022 <br></span>
                     <strong> Baccalauréat général </strong><br>
                     <span class="lieu"> Lycées Général et Technologique & Professionnel Marie de Champagne, Troyes </span><br><br>
                     <span class="u"> Spécialités:</span> Mathématiques / Physiques Chimie / Langues, Littératures et Cultures Etrangères (abandonnée en fin de 1er)
                 </p>
+                <p lang="en" class="hide">
+                    
+                </p>
             </div>
             <div class="rbox8">
-                <p>
+                <p lang="">
                     <span class="date"> 2020 - 2023 <br></span>
                     <strong> Caissier </strong><br>
                     <span class="lieu"> RELAY, Troyes </span><br><br>
                     2 mois complet en remplaçement pendant les vacances scolaire
                 </p>
+                <p lang="en" class="hide">
+                    
+                </p>
             </div>
 
             <div class="rbox9">
-                <p>
+                <p lang="">
                     <span class="date"> 2015 - 2019 <br></span>
                     <strong> Brevet des collèges </strong><br>
                     <span class="lieu"> Collège Pierre Brossolette, La Chapelle-Saint-Luc </span><br><br>
                     <span class="u"> Stage d'observation de 3ème:</span> TOULOKOWITZ SARL <br>
                     Société de Bureautique Informatique, de Téléphonie et d'Imprimerie
+                </p>
+                <p lang="en" class="hide">
+                    
                 </p>
             </div>
 
@@ -134,13 +200,13 @@
             </div>
 
             <div class="rbox11">
-                <h4><img src="../static/img/dev.png" alt="coding.png"><br> Langages de Programmation </h4>
+                <h4 lang=""><img src="../static/img/dev.png" alt="coding.png"><br> Langages de Programmation </h4>
             </div>
             <div class="rbox12">
-                <h4><img src="../static/img/resume.png" alt="resume.png"><br> Connaissances </h4>
+                <h4 lang=""><img src="../static/img/resume.png" alt="resume.png"><br> Connaissances </h4>
             </div>
             <div class="rbox13">
-                <ul>
+                <ul lang="fr">
                     <li>
                         HTML / CSS
                         <div class="progress">
@@ -172,6 +238,9 @@
                         </div>
                     </li>
                 </ul>
+                <ul lang="en">
+
+                </ul>
             </div>
             <div class="rbox14">
                 <ul>
@@ -183,10 +252,10 @@
                 </ul>
             </div>
             <div class="rbox15">
-                <h4><img src="../static/img/check.png" alt="check.png"><br> Compétences & Qualitées acquises </h4>
+                <h4 lang=""><img src="../static/img/check.png" alt="check.png"><br> Compétences & Qualitées acquises </h4>
             </div>
             <div class="rbox16">
-                <ul>
+                <ul lang="fr">
                     <li> Connaissances sur la vie au sein d'une entreprise </li>
                     <li> Intégration dans une équipe </li>
                     <li> Travailler en équipe </li>
@@ -194,6 +263,9 @@
                     <li> Ménage et réaprovisionnement marchandises </li>
                     <li> Inventaires </li>
                     <li> Persévérance et assiduité </li>
+                </ul>
+                <ul lang="en">
+
                 </ul>
             </div>
         </div>
@@ -218,10 +290,13 @@
             </div>
 
             <div class="cbox2">
-                <ul>
+                <ul lang="fr">
                     <li><strong> Adresse. . . . . </strong> 9 Bis Rue Hugues de Payns, France </li>
                     <li><strong> Email . . . . . </strong> Picot.Natanael@orange.com </li>
                     <li><strong> Phone . . . . . </strong> 06 23 23 50 90 </li>
+                </ul>
+                <ul lang="en">
+
                 </ul>
             </div>
         </div>

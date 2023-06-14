@@ -56,6 +56,10 @@
         font-size: 20px;
     }
     
+    .hide {
+        display: none;
+    }
+
     ul {
         list-style: none;
     
@@ -175,5 +179,10 @@
     
     h1, h2, h3, h4, a, span.top, li {
         font-family: "Arial";
+    }
+
+    #fr-en {
+        position: sticky;
+        top: 50px;
     }
 }
