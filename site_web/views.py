@@ -4,7 +4,7 @@ app = Flask(__name__, template_folder='templates', static_folder='static')
 
 @app.route('/')
 def hello():
-    return render_template('CV_test.html')
+    return render_template('CV.html')
 
 if __name__ == "__main__":
     app.run()
