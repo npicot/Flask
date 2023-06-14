@@ -43,22 +43,16 @@ h4 {
     padding: 2% 4%;
 
     text-align: center;
-    font-family: 'Georgia';
-    font-size: 16px;
+    font-family: "Times New Roman";
+    font-size: 20px;
 }
 
 #resume p {
     margin: 0;
     padding: 5% 4%;
 
-    font-family: 'Georgia';
-}
-
-a {
-    text-align: center;
-
-    color: white;
-    text-decoration: none;
+    font-family: "Times New Roman";
+    font-size: 20px;
 }
 
 ul {
@@ -101,7 +95,27 @@ span.texte-barrer {
     opacity: 60%;
 }
 
-strong {
+span.date {
+    margin-left: 15px;
+    padding: 0 5px;
+
+    font-size: 18px;
+    line-height: 18px;
+    color: #868686;
+    
+    border: 1px solid #cecece;
+}
+
+span.lieu {
+    font-style: italic;
+    font-size: 18px;
+}
+
+span.u {
+    text-decoration: underline;
+}
+
+#contact strong {
     float: left;
     color: #78cc6d;
 }
@@ -117,6 +131,16 @@ strong {
     height: 4px;
 
     background-color: #78cc6d;
+}
+
+a {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    margin: auto;
+
+    color: white;
+    text-decoration: none;
 }
 
 .circle {
@@ -146,10 +170,11 @@ strong {
     border-right: 1px solid lightgrey;
 }
 
-.abox1, .abox3, .abox6, .rbox1, .rbox2, .rbox3, .rbox4, .rbox5, .rbox6, .rbox7, .rbox10, .rbox11, .rbox12, .rbox13, .rbox14, .rbox15, .cbox1 {
+.abox1, .abox3, .abox6, .rbox1, .rbox2, .rbox3, .rbox4, .rbox5, .rbox6, .rbox7, .rbox10, .rbox11, .rbox12, .rbox13, .rbox14, .rbox15, .wbox1, .cbox1 {
     border-bottom: 1px solid lightgrey;
 }
 
 h1, h2, h3, h4, a, span.top, li {
     font-family: "Arial";
 }
+

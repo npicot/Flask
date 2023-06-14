@@ -1,9 +1,10 @@
 main {
     display: grid;
     grid-template-columns: 1.35fr 0.65fr 2fr;
-    grid-template-rows: 550px 1400px 200px;
+    grid-template-rows: 550px 1650px 200px;
 
     margin: 70px;
+    margin-top: 50px;
     padding: 50px;
 
     background-color: white;
@@ -16,8 +17,8 @@ nav {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 
-    height: 100px;
-    margin-top: 20px;
+    height: 130px;
+    margin-top: 30px;
 
     text-align: center;
 
@@ -44,7 +45,7 @@ nav {
 #resume {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 50px 90px repeat(3, 200px) 56px 90px 200px 100px 200px;
+    grid-template-rows: 50px 90px repeat(3, 280px) 56px 90px 200px 100px 200px;
 
     border-top: 1px solid;
     border-right: 1px solid;
