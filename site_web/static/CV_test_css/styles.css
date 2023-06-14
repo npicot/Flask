@@ -20,7 +20,7 @@ span.top {
 
 h2 {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 h3 {
@@ -76,9 +76,16 @@ img {
     height: 40px;
 }
 
+.pp img {
+    width: 200px;
+    height: 300px;
+
+    border-radius: 50px;
+}
+
 nav img {
-    width: 50px;
-    height: 50px;
+    width: 65%;
+    height: 65%;
     margin-top: 15px;
 
     text-align: center;
@@ -88,11 +95,6 @@ nav img {
 
 span.first-letter {
     color: #78cc6d;
-}
-
-span.texte-barrer {
-    text-decoration: line-through;
-    opacity: 60%;
 }
 
 span.date {
@@ -154,11 +156,6 @@ a {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
 }
 
-.circle:hover {
-    height: 84px;
-    width: 84px;
-}
-
 #scrollUp {
     position: fixed;
     bottom: 10px;
@@ -166,11 +163,11 @@ a {
     opacity: 0.5;
 }
 
-.abox4, .abox7, .rbox2, .rbox4, .rbox6, .rbox8, .rbox11, .rbox13 {
+.abox4, .rbox2, .rbox4, .rbox6, .rbox8, .rbox11, .rbox13 {
     border-right: 1px solid lightgrey;
 }
 
-.abox1, .abox3, .abox6, .rbox1, .rbox2, .rbox3, .rbox4, .rbox5, .rbox6, .rbox7, .rbox10, .rbox11, .rbox12, .rbox13, .rbox14, .rbox15, .wbox1, .cbox1 {
+.abox1, .abox3, .rbox1, .rbox2, .rbox3, .rbox4, .rbox5, .rbox6, .rbox7, .rbox10, .rbox11, .rbox12, .rbox13, .rbox14, .rbox15, .wbox1, .cbox1 {
     border-bottom: 1px solid lightgrey;
 }
 
