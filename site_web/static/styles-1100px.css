@@ -3,11 +3,14 @@
         background: linear-gradient(to bottom right, #50a3a2, #78cc6d);
     }
     
-    #fr-en img {
+    img#fr-en {
         width: 80px;
         height: 80px;
-
-        padding: 40% 10%;
+        margin: 20px;
+        
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 
     a {
@@ -29,8 +32,6 @@
         border-radius: 100%;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
     }
-
-    
     
     nav img {
         width: 65%;
