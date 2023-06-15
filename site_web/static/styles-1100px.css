@@ -3,6 +3,13 @@
         background: linear-gradient(to bottom right, #50a3a2, #78cc6d);
     }
     
+    #fr-en img {
+        width: 80px;
+        height: 80px;
+
+        padding: 40% 10%;
+    }
+
     a {
         width: 80px;
         height: 80px;
@@ -22,6 +29,8 @@
         border-radius: 100%;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
     }
+
+    
     
     nav img {
         width: 65%;
@@ -176,10 +185,5 @@
     
     h1, h2, h3, h4, a, span.top, li {
         font-family: "Arial";
-    }
-
-    #fr-en {
-        position: sticky;
-        top: 50px;
     }
 }

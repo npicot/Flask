@@ -1,9 +1,15 @@
 @media screen and (min-width: 1100px) {
+    #top {
+        display: grid;
+        grid-template-columns: 0.1fr 1.9fr;
+    }
+
     nav {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-    
-        max-width: 1100px;
+        
+        max-width: 2000px;
+        width: 1100px;
         height: 130px;
         margin: auto;
         margin-top: 20px;
