@@ -42,7 +42,7 @@
     
     #resume {
         display: grid;
-        grid-template-rows: 34px 70px 135px 180px 100px 70px 160px 120px 160px 38px 70px 180px 70px 150px 85px 240px;
+        grid-template-rows: 34px 70px 135px 125px 100px 70px 160px 180px 160px 38px 70px 180px 70px 150px 85px 240px;
     }
     
     #works {
