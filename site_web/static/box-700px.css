@@ -17,7 +17,7 @@
     main {
         display: grid;
         grid-template-columns: 1.35fr 0.65fr 2fr;
-        grid-template-rows: 540px 1670px 200px 240px;
+        grid-template-rows: 540px 1670px 200px 265px;
     
         max-width: 1100px;
         margin: auto;
