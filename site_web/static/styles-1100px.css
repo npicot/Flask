@@ -142,6 +142,10 @@
     span.u {
         text-decoration: underline;
     }
+
+    .space {
+        line-height: 80px;
+    }
     
     #contact strong {
         float: left;

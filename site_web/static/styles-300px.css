@@ -146,6 +146,10 @@
         text-decoration: underline;
     }
     
+    .space {
+        line-height: 50px;
+    }
+    
     #contact strong {
         float: left;
         color: #78cc6d;
