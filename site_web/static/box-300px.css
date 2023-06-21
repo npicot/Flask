@@ -16,7 +16,7 @@
     
     main {
         display: grid;
-        grid-template-rows: 310px 395px 1920px 135px 220px;
+        grid-template-rows: 310px 395px 1920px 135px 240px;
     
         max-width: 700px;
         margin: auto;
@@ -52,7 +52,7 @@
     
     #contact {
         display: grid;
-        grid-template-rows: 34px 170px;
+        grid-template-rows: 34px 220px;
     }
     
     #pp, #aboutme, #resume, #works {

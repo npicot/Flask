@@ -63,7 +63,7 @@
     
     #contact {
         display: grid;
-        grid-template-rows: 50px 180px;
+        grid-template-rows: 50px 230px;
     
         border-top: 1px solid;
     }

@@ -42,7 +42,7 @@
     }
     
     .pp img {
-        width: 140px;
+        width: 120px;
         height: 200px;
     
         border-radius: 30px;
@@ -146,8 +146,8 @@
         text-decoration: underline;
     }
     
-    .space {
-        line-height: 50px;
+    .py {
+        line-height: 30px;
     }
     
     #contact strong {

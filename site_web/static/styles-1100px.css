@@ -143,10 +143,10 @@
         text-decoration: underline;
     }
 
-    .space {
+    .py {
         line-height: 80px;
     }
-    
+
     #contact strong {
         float: left;
         color: #78cc6d;
