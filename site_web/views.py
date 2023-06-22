@@ -13,17 +13,17 @@ def hello():
 
         nb_visitors += 1
         cur.execute('UPDATE visitors SET nb_visitors = {};'.format(nb_visitors))
-        print(nb_visitors)
 
-        api_url = 'https://timeapi.io/api/Time/current/zone?timeZone=Europe/Paris'
-        response = requests.get(api_url)
-        if response.status_code == 200:
+        api_url = 'https://api.api-ninjas.com/v1/worldtime?city=Paris'
+        response = requests.get(api_url, headers={'X-Api-Key': 'bBpuN8xpUaZyf2hBLvIQ6w==K0TJnWMgApZLHj8a'})
+        if response.status_code == requests.codes.ok:
+            print(response.text)
             response_json = response.json()
+        else:
+            print("Error:", response.status_code, response.text)
 
-        print(response_json)
-        
             
-        return render_template('CV.html', nb_visitors = nb_visitors, response_json = response_json["dateTime"])
+        return render_template('CV.html', nb_visitors = nb_visitors, response_json = response_json["datetime"])
 
 
 if __name__ == "__main__":
