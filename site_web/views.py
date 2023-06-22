@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, url_for
 import sqlite3 as sql
 import requests
 
@@ -24,6 +24,11 @@ def hello():
 
             
         return render_template('CV.html', nb_visitors = nb_visitors, response_json = response_json["datetime"])
+
+
+@app.route('/motiv')
+def motiv():
+    return render_template('motiv.html')
 
 
 if __name__ == "__main__":
