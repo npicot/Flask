@@ -19,8 +19,6 @@
 </head>
 
 <body>
-    <a href="{{ url_for('motiv') }}"> Lettre de motivation </a>
-    
     <img src="../static/img/fr_en.png" alt="fr-eng.png" id="fr-en">
     
     
@@ -29,11 +27,13 @@
         <div lang="fr"><a href="#resume"><div class="circle"><img src="../static/img/resume.png" alt="resume.png"></div></a><br> CV </div>
         <div lang="fr"><a href="#works"><div class="circle"><img src="../static/img/works.png" alt="works.png"></div></a><br> PROJETS </div>
         <div lang="fr"><a href="#contact"><div class="circle"><img src="../static/img/email.png" alt="contact.png"></div></a><br> CONTACT </div>
+        <div lang="fr"><a href="{{ url_for('motiv') }}"><div class="circle"><img src="../static/img/motiv.png" alt="Lettre de motivation.png"></div></a><br> Lettre de Motivation </div>
     
         <div lang="en" class="hide"><a href="#aboutme"><div class="circle"><img src="../static/img/aboutme.png" alt="aboutme.png"></div></a><br> ABOUT ME </div>
         <div lang="en" class="hide"><a href="#resume"><div class="circle"><img src="../static/img/resume.png" alt="resume.png"></div></a><br> RESUME </div>
         <div lang="en" class="hide"><a href="#works"><div class="circle"><img src="../static/img/works.png" alt="works.png"></div></a><br> WORKS </div>
         <div lang="en" class="hide"><a href="#contact"><div class="circle"><img src="../static/img/email.png" alt="contact.png"></div></a><br> CONTACT </div>
+        <div lang="en" class="hide"><a href="{{ url_for('motiv') }}"><div class="circle"><img src="../static/img/motiv.png" alt="Motivation Letter.png"></div></a><br> Motivation Letter </div>
     </nav>
     
 
