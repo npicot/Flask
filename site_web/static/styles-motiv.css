@@ -24,6 +24,7 @@ body {
         margin: auto;
 
         text-align: center;
+        font-size: 14px;
 
         color: black;
     }
@@ -139,10 +140,10 @@ body {
         height: 30px;
         
         margin: auto;
-        font-size: 5px;
 
         text-align: center;
-
+        font-size: 5px;
+        
         color: black;
     }
 

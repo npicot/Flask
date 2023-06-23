@@ -7,10 +7,11 @@
     <script type="text/javascript" src="../static/hover.js"></script>
     <script type="text/javascript" src="../static/fr-en.js"></script>
     <title lang="fr"> Lettre de Motivation </title>
-    <title lang="en" class="hide"> Motivation Letter </title>
 </head>
 <body>
-    <a href="{{ url_for('hello') }}"><div class="circle2"><img src="../static/img/resume.png" alt="resume.png"><br> CV </div></a>
+    <a href="{{ url_for('hello') }}" lang="fr"><div class="circle2"><img src="../static/img/resume.png" alt="resume.png"><br> CV </div></a>
+
+    <a href="{{ url_for('hello') }}" lang="en" class="hide"><div class="circle2"><img src="../static/img/resume.png" alt="resume.png"><br> RESUME </div></a>
 
     <main>
         <img src="../static/img/fr_en.png" alt="fr-eng.png" id="fr-en"><br>
