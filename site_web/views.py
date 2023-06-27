@@ -1,6 +1,6 @@
-from flask import Flask, render_template, url_for
 import sqlite3 as sql
 import requests
+from flask import Flask, render_template, url_for
 
 
 app = Flask(__name__, template_folder='templates', static_folder='static')
