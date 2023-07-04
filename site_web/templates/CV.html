@@ -14,11 +14,12 @@
     <link rel="stylesheet" type="text/css" href="../static/box-300px.css">
     <link rel="stylesheet" type="text/css" href="../static/styles-300px.css">
 
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script type="text/javascript" src="../static/to-top.js"></script>
     <script type="text/javascript" src="../static/hover.js"></script>
     <script type="text/javascript" src="../static/fr-en.js"></script>
     <script type="text/javascript" src="../static/window-box.js"></script>
+    <script type="text/javascript" src="../static/animation.js"></script>
     
     <title lang="fr"> CV | Natanaël PICOT </title>
 </head>
@@ -28,17 +29,17 @@
     
     
     <nav>
-        <div lang="fr"><a href="#aboutme"><div class="circle"><img src="../static/img/aboutme.png" alt="aboutme.png"></div></a><br> A PROPOS DE MOI </div>
-        <div lang="fr"><a href="#resume"><div class="circle"><img src="../static/img/resume.png" alt="resume.png"></div></a><br> CV </div>
-        <div lang="fr"><a href="#works"><div class="circle"><img src="../static/img/works.png" alt="works.png"></div></a><br> PROJETS </div>
-        <div lang="fr"><a href="#contact"><div class="circle"><img src="../static/img/email.png" alt="contact.png"></div></a><br> CONTACT </div>
-        <div lang="fr"><a href="{{ url_for('motiv') }}"><div class="circle"><img src="../static/img/motiv.png" alt="Lettre de motivation.png"></div></a><br> Lettre de Motivation </div>
+        <div lang="fr" id="aboutme_img"><a href="#aboutme"><div class="circle"><img src="../static/img/aboutme.png" alt="aboutme.png"></div></a><br> A PROPOS DE MOI </div>
+        <div lang="fr" id="resume_img"><a href="#resume"><div class="circle"><img src="../static/img/resume.png" alt="resume.png"></div></a><br> CV </div>
+        <div lang="fr" id="works_img"><a href="#works"><div class="circle"><img src="../static/img/works.png" alt="works.png"></div></a><br> PROJETS </div>
+        <div lang="fr" id="contact_img"><a href="#contact"><div class="circle"><img src="../static/img/email.png" alt="contact.png"></div></a><br> CONTACT </div>
+        <div lang="fr" id="motiv_img"><a href="{{ url_for('motiv') }}"><div class="circle"><img src="../static/img/motiv.png" alt="Lettre de motivation.png"></div></a><br> Lettre de Motivation </div>
     
-        <div lang="en" class="hide"><a href="#aboutme"><div class="circle"><img src="../static/img/aboutme.png" alt="aboutme.png"></div></a><br> ABOUT ME </div>
-        <div lang="en" class="hide"><a href="#resume"><div class="circle"><img src="../static/img/resume.png" alt="resume.png"></div></a><br> RESUME </div>
-        <div lang="en" class="hide"><a href="#works"><div class="circle"><img src="../static/img/works.png" alt="works.png"></div></a><br> WORKS </div>
-        <div lang="en" class="hide"><a href="#contact"><div class="circle"><img src="../static/img/email.png" alt="contact.png"></div></a><br> CONTACT </div>
-        <div lang="en" class="hide"><a href="{{ url_for('motiv') }}"><div class="circle"><img src="../static/img/motiv.png" alt="Motivation Letter.png"></div></a><br> Motivation Letter </div>
+        <div lang="en" id="aboutme_img" class="hide"><a href="#aboutme"><div class="circle"><img src="../static/img/aboutme.png" alt="aboutme.png"></div></a><br> ABOUT ME </div>
+        <div lang="en" id="resume_img" class="hide"><a href="#resume"><div class="circle"><img src="../static/img/resume.png" alt="resume.png"></div></a><br> RESUME </div>
+        <div lang="en" id="works_img" class="hide"><a href="#works"><div class="circle"><img src="../static/img/works.png" alt="works.png"></div></a><br> WORKS </div>
+        <div lang="en" id="contact_img" class="hide"><a href="#contact"><div class="circle"><img src="../static/img/email.png" alt="contact.png"></div></a><br> CONTACT </div>
+        <div lang="en" id="motiv_img" class="hide"><a href="{{ url_for('motiv') }}"><div class="circle"><img src="../static/img/motiv.png" alt="Motivation Letter.png"></div></a><br> Motivation Letter </div>
     </nav>
     
 
