@@ -29,17 +29,17 @@
     
     
     <nav>
-        <div lang="fr" id="aboutme_img"><a href="#aboutme"><div class="circle"><img src="../static/img/aboutme.png" alt="aboutme.png"></div></a><br> A PROPOS DE MOI </div>
-        <div lang="fr" id="resume_img"><a href="#resume"><div class="circle"><img src="../static/img/resume.png" alt="resume.png"></div></a><br> CV </div>
-        <div lang="fr" id="works_img"><a href="#works"><div class="circle"><img src="../static/img/works.png" alt="works.png"></div></a><br> PROJETS </div>
-        <div lang="fr" id="contact_img"><a href="#contact"><div class="circle"><img src="../static/img/email.png" alt="contact.png"></div></a><br> CONTACT </div>
-        <div lang="fr" id="motiv_img"><a href="{{ url_for('motiv') }}"><div class="circle"><img src="../static/img/motiv.png" alt="Lettre de motivation.png"></div></a><br> Lettre de Motivation </div>
+        <div lang="fr" class="animation_nav" id="aboutme_img"><a href="#aboutme"><div class="circle"><img src="../static/img/aboutme.png" alt="aboutme.png"></div></a><br> A PROPOS DE MOI </div>
+        <div lang="fr" class="animation_nav" id="resume_img"><a href="#resume"><div class="circle"><img src="../static/img/resume.png" alt="resume.png"></div></a><br> CV </div>
+        <div lang="fr" class="animation_nav" id="works_img"><a href="#works"><div class="circle"><img src="../static/img/works.png" alt="works.png"></div></a><br> PROJETS </div>
+        <div lang="fr" class="animation_nav" id="contact_img"><a href="#contact"><div class="circle"><img src="../static/img/email.png" alt="contact.png"></div></a><br> CONTACT </div>
+        <div lang="fr" class="animation_nav" id="motiv_img"><a href="{{ url_for('motiv') }}"><div class="circle"><img src="../static/img/motiv.png" alt="Lettre de motivation.png"></div></a><br> Lettre de Motivation </div>
     
-        <div lang="en" id="aboutme_img" class="hide"><a href="#aboutme"><div class="circle"><img src="../static/img/aboutme.png" alt="aboutme.png"></div></a><br> ABOUT ME </div>
-        <div lang="en" id="resume_img" class="hide"><a href="#resume"><div class="circle"><img src="../static/img/resume.png" alt="resume.png"></div></a><br> RESUME </div>
-        <div lang="en" id="works_img" class="hide"><a href="#works"><div class="circle"><img src="../static/img/works.png" alt="works.png"></div></a><br> WORKS </div>
-        <div lang="en" id="contact_img" class="hide"><a href="#contact"><div class="circle"><img src="../static/img/email.png" alt="contact.png"></div></a><br> CONTACT </div>
-        <div lang="en" id="motiv_img" class="hide"><a href="{{ url_for('motiv') }}"><div class="circle"><img src="../static/img/motiv.png" alt="Motivation Letter.png"></div></a><br> Motivation Letter </div>
+        <div lang="en" id="aboutme_img" class="hide animation_nav"><a href="#aboutme"><div class="circle"><img src="../static/img/aboutme.png" alt="aboutme.png"></div></a><br> ABOUT ME </div>
+        <div lang="en" id="resume_img" class="hide animation_nav"><a href="#resume"><div class="circle"><img src="../static/img/resume.png" alt="resume.png"></div></a><br> RESUME </div>
+        <div lang="en" id="works_img" class="hide animation_nav"><a href="#works"><div class="circle"><img src="../static/img/works.png" alt="works.png"></div></a><br> WORKS </div>
+        <div lang="en" id="contact_img" class="hide animation_nav"><a href="#contact"><div class="circle"><img src="../static/img/email.png" alt="contact.png"></div></a><br> CONTACT </div>
+        <div lang="en" id="motiv_img" class="hide animation_nav"><a href="{{ url_for('motiv') }}"><div class="circle"><img src="../static/img/motiv.png" alt="Motivation Letter.png"></div></a><br> Motivation Letter </div>
     </nav>
     
 
@@ -335,13 +335,13 @@
                     <li><strong> Adresse. . . . . </strong><br> 9 Bis Rue Hugues de Payns, France </li>
                     <li><strong> Email . . . . . </strong><br> Picot.Natanael@orange.com </li>
                     <li><strong> Téléphone . . . . . </strong><br> 06 23 23 50 90 </li>
-                    <span class="py"> Nombre de visiteurs = {{nb_visitors}} || {{response_json}} </span>
+                    <span class="py"> Nombre de visiteurs = {{nb_visitors}} || {{date}} </span>
                 </ul>
                 <ul lang="en" class="hide">
                     <li><strong> Address. . . . . </strong><br> 9 Bis Rue Hugues de Payns, France </li>
                     <li><strong> Email . . . . . </strong><br> Picot.Natanael@orange.com </li>
                     <li><strong> Phone . . . . . </strong><br> 06 23 23 50 90 </li>
-                    <span class="py"> Number of visitors = {{nb_visitors}} || {{response_json}} </span>
+                    <span class="py"> Number of visitors = {{nb_visitors}} || {{date}} </span>
                 </ul>
             </div>
         </div>
