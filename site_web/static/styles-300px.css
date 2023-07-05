@@ -1,6 +1,6 @@
 @media screen and (min-width: 300px) and (max-width: 700px) {
     body {
-        background: linear-gradient(to bottom right, #50a3a2, #78cc6d);
+        background: linear-gradient(to bottom left, #1c99e7, #000);
     }
     
     img#fr-en {

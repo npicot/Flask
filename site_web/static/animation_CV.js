@@ -43,16 +43,42 @@ $(document).ready(function () {
         $(this).css({
            position: "static" 
         });
-
-        for (let index = 0; index < 1; index++) {
-            $("#fr-en").animate({
-                width: "40px",
-                height: "40px"
-            });
-            $("#fr-en").animate({
-                width: "80px",
-                height: "80px"
-            });
+        
+        if ($(window).width() >= 1100) {
+            for (let index = 0; index < 1; index++) {
+                $("#fr-en").animate({
+                    width: "40px",
+                    height: "40px"
+                });
+                $("#fr-en").animate({
+                    width: "80px",
+                    height: "80px"
+                });
+            }
+        }
+        if ($(window).width() >= 700 && $(window).width() < 1100) {
+            for (let index = 0; index < 1; index++) {
+                $("#fr-en").animate({
+                    width: "20px",
+                    height: "20px"
+                });
+                $("#fr-en").animate({
+                    width: "40px",
+                    height: "40px"
+                });
+            }
+        }
+        if ($(window).width() >= 300 && $(window).width() < 700) {
+            for (let index = 0; index < 1; index++) {
+                $("#fr-en").animate({
+                    width: "10px",
+                    height: "10px"
+                });
+                $("#fr-en").animate({
+                    width: "20px",
+                    height: "20px"
+                });
+            }
         }
     });
 });

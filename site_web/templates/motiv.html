@@ -4,16 +4,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" type="text/css" href="../static/styles-motiv.css">
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script type="text/javascript" src="../static/hover.js"></script>
     <script type="text/javascript" src="../static/fr-en.js"></script>
+    <script type="text/javascript" src="../static/animation_motiv.js"></script>
 
     <title lang="fr"> Lettre de Motivation </title>
 </head>
 <body>
-    <a href="{{ url_for('hello') }}" lang="fr"><div class="circle2"><img src="../static/img/resume.png" alt="resume.png"><br> CV </div></a>
+    <a href="{{ url_for('hello') }}" lang="fr"><div class="circle2"><img src="../static/img/resume_white.png" alt="resume.png"><br> CV </div></a>
 
-    <a href="{{ url_for('hello') }}" lang="en" class="hide"><div class="circle2"><img src="../static/img/resume.png" alt="resume.png"><br> RESUME </div></a>
+    <a href="{{ url_for('hello') }}" lang="en" class="hide"><div class="circle2"><img src="../static/img/resume_white.png" alt="resume.png"><br> RESUME </div></a>
 
     <main>
         <img src="../static/img/fr_en.png" alt="fr-eng.png" id="fr-en"><br>
@@ -25,48 +27,31 @@
         Picot.Natanael@orange.fr <br><br>
 
         <div lang="fr">
-            Objet: Candidature au poste de  <br><br>
+            <p>
+                Objet: Demande de stage, développeur informatique du 8 janvier au 9 février 2024 pour BTS SIO <br><br>
 
-            Madame, Monsieur, <br>
-            Etant actuellemement à la recherche d'un emploi, je me permets de vous proposer ma candidature au poste de  <br><br>
+                Madame, Monsieur, <br><br>
 
-            En effet, je suisvivement intérressé par votre annonce qui décrit u profil me correspondant parfaitement. <br>
-            Travailleur rigoureux et disponible, c'est avec un grand optimisme que je postule pour intégrer votre entreprise. <br>
-            Possédant une motivation sans faille, je saurai mener à bien les différentes missions que vous me confierez. <br><br>
+                Actuellement étudiant en BTS SIO en 2ème année à Reims spécialisé en développement logiciels, <br>
+                je souhaiterais faire mon stage dans votre entreprise. <br><br>
 
-            Sociable et à l'écoute, je sais m'adapter à une situation en place et pourrais ainsi m'intégrer sans le moindre problème à votre équipe. <br><br>
+                Comme indiqué dans mon CV, dans le cadre de ma formation j’ai acquis des compétences <br>
+                en développement web (HTML, CSS, JavaScript, PHP, ajax) et en développement objet (C++). <br>
+                Ainsi que des connaissances et compétences en base de données relationnelles (Postgrsql). <br>
+                De mon côté, j'ai également appris à utiliser Python, Flask et JQuery. <br>
+                Je suis aussi capable de travailler sur des projets informatiques en équipe avec la méthode Agile. <br><br>
 
-            Mon manque d'expérience professionnelle n'entame en rien ma volonté à occuper ce poste et me pousse, au contraire, à faire mes preuves. <br>
-            Le challenge proposé est à la hauteur de mes espérances. <br><br>
+                Mes expériences professionnelles et personnelles ont démontré mes capacités à travailler en équipe et en autonomie, <br>
+                ainsi que ma persévérance et curiosité. <br>
+                Ce serait avec plaisir que je vous présenter mon profil et mon projet de stage lors d’un entretien. <br><br>
 
-            Ce remier emploi va marquer le début de ma vie active, dont la réussite est entre mes mains. <br><br>
-
-            Je reste à votre disposition pour toute information complémentaire, ou pour vous rencontrer lors d'un entretien. <br><br>
-
-            Veuillez agréer, Madame, Monsieur, l'expression de mes sincères salutations. <br><br>
-
+                Je vous prie d’agréer, Madame, Monsieur, l'expression de mes sincères salutations. <br><br>
+            </p>
         </div>
         <div lang="en" class="hide">
-            
-            Subject: Application for the post of <br><br>
-
-            Dear, <br>
-            Being currently looking for a job, I allow myself to offer you my candidacy for the post of <br><br>
-
-            Indeed, I am very interested in your ad which describes a profile that matches me perfectly. <br>
-            Rigorous and available worker, it is with great optimism that I apply to join your company. <br>
-            Possessing an unfailing motivation, I will be able to carry out the various missions that you will entrust to me. <br><br>
-
-            Sociable and attentive, I know how to adapt to a situation in place and could thus integrate myself without the slightest problem into your team. <br><br>
-
-            My lack of professional experience in no way affects my desire to occupy this position and pushes me, on the contrary, to prove myself. <br>
-            The proposed challenge is up to my expectations. <br><br>
-
-            This first job will mark the beginning of my active life, the success of which is in my hands. <br><br>
-
-            I remain at your disposal for any further information, or to meet you during an interview. <br><br>
-
-            Please accept, Madam, Sir, the expression of my sincere greetings. <br><br>
+            <p>
+                
+            </p>
         </div>
         
         <img src="../static/img/signature.PNG" alt="signature">

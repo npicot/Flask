@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom right, #50a3a2, #78cc6d);
+    background: linear-gradient(to bottom left, #000, #1c99e7);
 }
 
 @media screen and (min-width: 1100px) {
@@ -12,7 +12,8 @@ body {
         width: 75px;
         margin: 1%;
 
-        background-color: white;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.15);
         border-radius: 100%;
         box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.8);
     }
@@ -38,7 +39,7 @@ body {
     }
 
     main {
-        max-width: 900px;
+        width: 800px;
         min-height: 715px;
 
         margin: auto;
@@ -54,6 +55,8 @@ body {
     #fr-en {
         width: 60px;
         height: 60px;
+
+        float: right;
     }
 
     .hide {
@@ -71,7 +74,8 @@ body {
         width: 50px;
         margin: 1%;
 
-        background-color: white;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.15);
         border-radius: 100%;
         box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.8);
     }
@@ -113,6 +117,8 @@ body {
     #fr-en {
         width: 40px;
         height: 40px;
+
+        float: right;
     }
 
     .hide {
@@ -130,7 +136,8 @@ body {
         width: 30px;
         margin: 1%;
 
-        background-color: white;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.15);
         border-radius: 100%;
         box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.8);
     }
@@ -156,7 +163,7 @@ body {
     }
 
     main {
-        max-width: 250px;
+        width: 200px;
         min-height: 715px;
 
         margin: auto;
@@ -174,6 +181,8 @@ body {
     #fr-en {
         width: 30px;
         height: 30px;
+
+        float: right;
     }
 
     .hide {
